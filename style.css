@@ -1,0 +1,43 @@
+/* Mobile
+@media screen and (max-width: 767px) {
+    body {
+        background-color: pink;
+        color: black;
+    }
+}
+
+/* Tablet */
+/* @media screen and (min-width: 769px) and (max-width: 992px) {
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+} */
+
+/* Desktop */
+/* @media screen and (min-width: 993px) 
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+} */ 
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+footer{
+    padding:20px;
+    text-align:center;
+    background:gray;
+    color:black;
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    footer{
+        background:rgb(13, 219, 23);
+        color:white;
+    }
+}
