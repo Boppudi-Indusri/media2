@@ -1,1 +1,9 @@
-Media Queries are a CSS feature used to create responsive web pages by applying different styles based on the device's screen size, resolution, or orientation. They help websites adapt their layout, font sizes, images, navigation, and other elements for mobiles, tablets, laptops, and desktops. By using media queries, the same webpage provides a better user experience on all devices without creating separate versions of the website.
+Brief Explanation of the Media Queries
+
+This web page uses CSS media queries to create a responsive layout that adapts to different screen sizes.
+
+Desktop (default): The layout uses a 3-column CSS Grid (grid-template-columns: repeat(3, 1fr)), making efficient use of wide screens.
+Tablet (max-width: 992px): The grid changes to 2 columns, making the content easier to read on medium-sized screens. The font size is also slightly increased for better readability.
+Mobile (max-width: 767px): The layout changes to a single column, stacking all sections vertically. The heading and body font sizes are adjusted, and the content box padding is reduced to fit smaller screens comfortably.
+
+These media queries ensure that the webpage remains responsive, readable, and user-friendly across desktops, tablets, and mobile phones.
